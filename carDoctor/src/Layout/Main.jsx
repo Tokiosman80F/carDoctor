@@ -1,8 +1,12 @@
-
+import { Outlet } from "react-router-dom";
+import NavBar from "../Pages/Shared/NavBar/NavBar";
+import Footer from "../Pages/Shared/Footer/Footer";
 const Main = () => {
   return (
-    <div className="text-3xl">
-      This main page 
+    <div>
+      <NavBar></NavBar>
+      <Outlet></Outlet>
+      <Footer></Footer>
     </div>
   );
 };

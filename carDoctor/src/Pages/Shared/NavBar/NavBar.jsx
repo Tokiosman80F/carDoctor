@@ -23,7 +23,7 @@ const NavBar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 py-5">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -49,14 +49,14 @@ const NavBar = () => {
             {navLink}
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl"> <img src={logo} alt="" /> </Link>
+        <Link to="/" className=" "> <img src={logo} alt="" /> </Link>
       </div>
 
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLink}</ul>
       </div>
       <div className="navbar-end">
-      <button className="btn btn-outline btn-warning">Appointment</button>
+      <button className="custom-btn-base custom-btn-secondary ">Appointment</button>
       </div>
     </div>
   );

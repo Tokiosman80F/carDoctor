@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body{
+  @apply font-inter font-semibold;
+}
+
+.custom-btn-base{
+    @apply  transition ease-in-out delay-150  duration-300 capitalize text-lg font-semibold px-4 py-2 rounded-md outline-none
+}
+.custom-btn-primary {
+  @apply  text-white bg-primaryColor border-none   hover:bg-secondaryColor;
+}
+.custom-btn-secondary {
+    @apply text-primaryColor border border-primaryColor  hover:bg-primaryColor hover:text-white
+}
+.section-heading{
+    @apply text-primaryColor font-bold text-xl
+}
+.section-subheading{
+    @apply text-secondaryColor font-bold text-[45px]
+}
+.section-paragraph{
+    @apply text-darkColor font-normal text-base
+}

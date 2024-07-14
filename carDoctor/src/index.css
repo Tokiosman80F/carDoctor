@@ -8,6 +8,10 @@ body{
   @apply font-inter font-semibold;
 }
 
+img{
+    max-width: 100%;
+    max-height:100%
+}
 .custom-btn-base{
     @apply  transition ease-in-out delay-150  duration-300 capitalize text-lg font-semibold px-4 py-2 rounded-md outline-none
 }
@@ -18,11 +22,11 @@ body{
     @apply text-primaryColor border border-primaryColor  hover:bg-primaryColor hover:text-white
 }
 .section-heading{
-    @apply text-primaryColor font-bold text-xl
+    @apply text-primaryColor font-bold text-xl capitalize
 }
 .section-subheading{
-    @apply text-secondaryColor font-bold text-[45px]
+    @apply text-secondaryColor font-bold text-[45px] capitalize
 }
 .section-paragraph{
-    @apply text-darkColor font-normal text-base
+    @apply text-darkColor font-normal text-base capitalize
 }

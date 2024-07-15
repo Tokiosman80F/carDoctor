@@ -5,7 +5,9 @@ const Main = () => {
   return (
     <div>
       <NavBar></NavBar>
+      <div className="min-h-[85vh]">
       <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </div>
   );

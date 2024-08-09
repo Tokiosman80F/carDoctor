@@ -1,158 +1,152 @@
 [
-    {
-        "_id": "635a0c0b64a6d231228942ae",
-        "service_id": "04",
-        "title": "Engine Oil Change",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
-        "price": "20.00",
-        "description": "Regular engine oil changes are crucial to maintain the performance and longevity of your vehicle. Our service ensures your engine runs smoothly by using high-quality oil and advanced techniques for a thorough oil change.",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Quick and efficient oil changes to get you back on the road in no time."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Our services are available around the clock, ensuring your car is in top condition whenever you need it."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Friendly and professional customer service to assist you with any questions or concerns."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Affordable oil change services without compromising on quality."
-            }
-        ]
-    },
-    {
-        "_id": "635a0c0b64a6d231228942af",
-        "service_id": "05",
-        "title": "Battery Charge",
-        "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
-        "price": "20.00",
-        "description": "Ensure your vehicle's battery is always charged and ready to go. Our battery charging service provides a quick and reliable charge, prolonging the life of your battery and ensuring optimal performance.",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fast and efficient battery charging services to get you moving quickly."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Available at any time of the day or night, ensuring your battery is never dead when you need it."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Professional staff ready to assist you with any battery-related issues."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Affordable battery charging solutions that ensure reliability and longevity."
-            }
-        ]
-    },
-    {
-        "_id": "635b591a1dafe382a9da8c96",
-        "service_id": "01",
-        "title": "Full Car Repair",
-        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
-        "price": "200.00",
-        "description": "Comprehensive car repair services to address all your vehicle's needs. From engine overhauls to brake repairs, our expert technicians ensure your car is in top shape and safe to drive.",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Complete car repair services with quick turnaround times."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Reliable repair services available anytime, ensuring your car is always roadworthy."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Customer-friendly service that keeps you informed and satisfied."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "High-quality repairs at competitive prices."
-            }
-        ]
-    },
-    {
-        "_id": "635b5afc1dafe382a9da8c98",
-        "service_id": "02",
-        "title": "Engine Repair",
-        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
-        "price": "150.00",
-        "description": "Our engine repair service covers everything from minor fixes to major overhauls. With advanced diagnostic tools and skilled mechanics, we ensure your engine runs smoothly and efficiently.",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Prompt and precise engine repairs to minimize downtime."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Engine repair services available round-the-clock to suit your schedule."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Clear communication and friendly service throughout the repair process."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Engine repairs at reasonable rates without compromising on quality."
-            }
-        ]
-    },
-    {
-        "_id": "635b5b691dafe382a9da8c99",
-        "service_id": "03",
-        "title": "Automatic Services",
-        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
-        "price": "30.00",
-        "description": "Our automatic services include maintenance and repair of automatic transmission systems. We ensure your vehicle shifts smoothly and performs optimally with our specialized services.",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Efficient automatic transmission services to keep your car running smoothly."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Available anytime to handle your automatic transmission needs."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Dedicated support to guide you through our service process."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Affordable solutions for all your automatic transmission issues."
-            }
-        ]
-    },
-    {
-        "_id": "635b5ba51dafe382a9da8c9a",
-        "service_id": "06",
-        "title": "Electrical System",
-        "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
-        "price": "20.00",
-        "description": "Our electrical system services cover everything from diagnostics to repairs of your vehicle's electrical components. We ensure your car's electrical systems function properly for a safe and reliable drive.",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Quick and accurate electrical system diagnostics and repairs."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Electrical services available at all times to address any issues promptly."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Friendly assistance to help you understand and resolve electrical problems."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Cost-effective electrical services to keep your car's systems running smoothly."
-            }
-        ]
-    }
+  {
+    "service_id": "04",
+    "title": "Engine Oil Change",
+    "img": "https://i.ibb.co/T2cpBd5/888.jpg",
+    "price": "20.00",
+    "description": "Regular engine oil changes are crucial to maintain the performance and longevity of your vehicle. Our service ensures your engine runs smoothly by using high-quality oil and advanced techniques for a thorough oil change.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Quick and efficient oil changes to get you back on the road in no time."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Our services are available around the clock, ensuring your car is in top condition whenever you need it."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Friendly and professional customer service to assist you with any questions or concerns."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Affordable oil change services without compromising on quality."
+      }
+    ]
+  },
+  {
+    "service_id": "05",
+    "title": "Battery Charge",
+    "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
+    "price": "20.00",
+    "description": "Ensure your vehicle's battery is always charged and ready to go. Our battery charging service provides a quick and reliable charge, prolonging the life of your battery and ensuring optimal performance.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Fast and efficient battery charging services to get you moving quickly."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Available at any time of the day or night, ensuring your battery is never dead when you need it."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Professional staff ready to assist you with any battery-related issues."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Affordable battery charging solutions that ensure reliability and longevity."
+      }
+    ]
+  },
+  {
+    "service_id": "01",
+    "title": "Full Car Repair",
+    "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
+    "price": "200.00",
+    "description": "Comprehensive car repair services to address all your vehicle's needs. From engine overhauls to brake repairs, our expert technicians ensure your car is in top shape and safe to drive.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Complete car repair services with quick turnaround times."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Reliable repair services available anytime, ensuring your car is always roadworthy."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Customer-friendly service that keeps you informed and satisfied."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "High-quality repairs at competitive prices."
+      }
+    ]
+  },
+  {
+    "service_id": "02",
+    "title": "Engine Repair",
+    "img": "https://i.ibb.co/5MvmD2g/88.jpg",
+    "price": "150.00",
+    "description": "Our engine repair service covers everything from minor fixes to major overhauls. With advanced diagnostic tools and skilled mechanics, we ensure your engine runs smoothly and efficiently.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Prompt and precise engine repairs to minimize downtime."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Engine repair services available round-the-clock to suit your schedule."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Clear communication and friendly service throughout the repair process."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Engine repairs at reasonable rates without compromising on quality."
+      }
+    ]
+  },
+  {
+    "service_id": "03",
+    "title": "Automatic Services",
+    "img": "https://i.ibb.co/wh7t3N3/555.jpg",
+    "price": "30.00",
+    "description": "Our automatic services include maintenance and repair of automatic transmission systems. We ensure your vehicle shifts smoothly and performs optimally with our specialized services.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Efficient automatic transmission services to keep your car running smoothly."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Available anytime to handle your automatic transmission needs."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Dedicated support to guide you through our service process."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Affordable solutions for all your automatic transmission issues."
+      }
+    ]
+  },
+  {
+    "service_id": "06",
+    "title": "Electrical System",
+    "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
+    "price": "20.00",
+    "description": "Our electrical system services cover everything from diagnostics to repairs of your vehicle's electrical components. We ensure your car's electrical systems function properly for a safe and reliable drive.",
+    "facility": [
+      {
+        "name": "Instant Car Services",
+        "details": "Quick and accurate electrical system diagnostics and repairs."
+      },
+      {
+        "name": "24/7 Quality Service",
+        "details": "Electrical services available at all times to address any issues promptly."
+      },
+      {
+        "name": "Easy Customer Service",
+        "details": "Friendly assistance to help you understand and resolve electrical problems."
+      },
+      {
+        "name": "Quality Cost Service",
+        "details": "Cost-effective electrical services to keep your car's systems running smoothly."
+      }
+    ]
+  }
 ]

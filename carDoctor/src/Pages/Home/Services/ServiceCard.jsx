@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const ServiceCard = ({ service }) => {
   return (
-    <div className="border card  w-96 ">
-      <figure className="px-5 pt-5">
+    <div className="border card  w-96 shadow-2xl ">
+      <figure className="p-5">
         <img
           src={service.img}
           alt="Shoes"
@@ -19,7 +19,10 @@ const ServiceCard = ({ service }) => {
           <p className="text-primaryColor font-semibold text-xl">
             Price : ${service.price}
           </p>
-          <Link className="text-primaryColor hover:text-white hover:bg-primaryColor p-2 border-2 rounded-full transition ease-in-out delay-150 duration-200  ">
+          <Link
+            to={`/book/${service._id}`}
+            className="text-primaryColor hover:text-white hover:bg-primaryColor p-2 border-2 rounded-full transition ease-in-out delay-150 duration-200  "
+          >
             <FaArrowRightLong />
           </Link>
         </div>

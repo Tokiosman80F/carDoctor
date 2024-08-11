@@ -1,7 +1,12 @@
 import React from "react";
 
-const BookingRow = ({ booking, handleDeleteBooking, handleUpdateBooking }) => {
-  const { _id, price, date, serviceName, image } = booking;
+const BookingRow = ({
+  booking,
+  handleDeleteBooking,
+  handleUpdateBooking,
+  handleConfirmBooking,
+}) => {
+  const { _id, price, date, serviceName, image, status } = booking;
   return (
     <tr>
       <td>
@@ -36,10 +41,10 @@ const BookingRow = ({ booking, handleDeleteBooking, handleUpdateBooking }) => {
       </td>
       <td>
         <button
-          onClick={() => handleUpdateBooking(_id)}
+          onClick={() => handleConfirmBooking(_id)}
           className="btn bg-blue-400"
         >
-          pending
+          {status ? "confirm" : "pending"}
         </button>
       </td>
     </tr>
